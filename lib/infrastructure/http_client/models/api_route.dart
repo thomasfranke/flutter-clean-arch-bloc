@@ -1,4 +1,4 @@
-import 'package:flutter_clean_arch_riverpod/infrastructure/http_client/models/http_methods.dart';
+import 'package:flutter_clean_arch_bloc/infrastructure/http_client/models/http_methods.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'api_route.freezed.dart';

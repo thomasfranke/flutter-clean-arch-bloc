@@ -1,6 +1,6 @@
-import 'package:flutter_clean_arch_riverpod/core/either/either.dart';
-import 'package:flutter_clean_arch_riverpod/infrastructure/storage/shared_preferences/shared_preferences_impl.dart';
-import 'package:flutter_clean_arch_riverpod/infrastructure/storage/storage_failure.dart';
+import 'package:flutter_clean_arch_bloc/core/either/either.dart';
+import 'package:flutter_clean_arch_bloc/infrastructure/storage/shared_preferences/shared_preferences_impl.dart';
+import 'package:flutter_clean_arch_bloc/infrastructure/storage/storage_failure.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:shared_preferences_platform_interface/shared_preferences_platform_interface.dart';

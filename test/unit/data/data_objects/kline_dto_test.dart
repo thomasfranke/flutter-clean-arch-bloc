@@ -1,5 +1,5 @@
-import 'package:flutter_clean_arch_riverpod/data/data_objects/kline_dto.dart';
-import 'package:flutter_clean_arch_riverpod/domain/entities/kline_entity.dart';
+import 'package:flutter_clean_arch_bloc/data/data_objects/kline_dto.dart';
+import 'package:flutter_clean_arch_bloc/domain/entities/kline_entity.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

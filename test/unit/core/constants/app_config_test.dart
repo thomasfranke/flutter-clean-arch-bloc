@@ -1,4 +1,4 @@
-import 'package:flutter_clean_arch_riverpod/core/constants/app_config.dart';
+import 'package:flutter_clean_arch_bloc/core/constants/app_config.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

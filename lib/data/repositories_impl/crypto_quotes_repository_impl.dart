@@ -1,12 +1,12 @@
-import 'package:flutter_clean_arch_riverpod/core/either/either.dart';
-import 'package:flutter_clean_arch_riverpod/core/failures/failures.dart';
-import 'package:flutter_clean_arch_riverpod/data/data_objects/crypto_quote_dto.dart';
-import 'package:flutter_clean_arch_riverpod/data/data_sources/crypto_quotes_datasource.dart';
-import 'package:flutter_clean_arch_riverpod/data/repositories_impl/entity_list.dart';
-import 'package:flutter_clean_arch_riverpod/data/repositories_impl/failure_mappers.dart';
-import 'package:flutter_clean_arch_riverpod/domain/entities/crypto_quote_entity.dart';
-import 'package:flutter_clean_arch_riverpod/domain/repositories/crypto_quotes_repository_interface.dart';
-import 'package:flutter_clean_arch_riverpod/infrastructure/http_client/http_client_failure.dart';
+import 'package:flutter_clean_arch_bloc/core/either/either.dart';
+import 'package:flutter_clean_arch_bloc/core/failures/failures.dart';
+import 'package:flutter_clean_arch_bloc/data/data_objects/crypto_quote_dto.dart';
+import 'package:flutter_clean_arch_bloc/data/data_sources/crypto_quotes_datasource.dart';
+import 'package:flutter_clean_arch_bloc/data/repositories_impl/entity_list.dart';
+import 'package:flutter_clean_arch_bloc/data/repositories_impl/failure_mappers.dart';
+import 'package:flutter_clean_arch_bloc/domain/entities/crypto_quote_entity.dart';
+import 'package:flutter_clean_arch_bloc/domain/repositories/crypto_quotes_repository_interface.dart';
+import 'package:flutter_clean_arch_bloc/infrastructure/http_client/http_client_failure.dart';
 
 /// Repository implementation for fetching cryptocurrency quotes, using a
 /// [CryptoQuoteDatasource] to retrieve data and converting it to domain

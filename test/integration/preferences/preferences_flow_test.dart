@@ -1,13 +1,13 @@
-import 'package:flutter_clean_arch_riverpod/application/preferences/get_preferences_usecase.dart';
-import 'package:flutter_clean_arch_riverpod/application/preferences/update_darkmode_preferences_usecase.dart';
-import 'package:flutter_clean_arch_riverpod/application/preferences/update_fontscale_usecase.dart';
-import 'package:flutter_clean_arch_riverpod/application/preferences/update_locale_usecase.dart';
-import 'package:flutter_clean_arch_riverpod/core/either/either.dart';
-import 'package:flutter_clean_arch_riverpod/core/failures/failures.dart';
-import 'package:flutter_clean_arch_riverpod/data/data_sources/preferences_datasource.dart';
-import 'package:flutter_clean_arch_riverpod/data/repositories_impl/preferences_repository_impl.dart';
-import 'package:flutter_clean_arch_riverpod/domain/entities/preferences_entity.dart';
-import 'package:flutter_clean_arch_riverpod/infrastructure/storage/shared_preferences/shared_preferences_impl.dart';
+import 'package:flutter_clean_arch_bloc/application/preferences/get_preferences_usecase.dart';
+import 'package:flutter_clean_arch_bloc/application/preferences/update_darkmode_preferences_usecase.dart';
+import 'package:flutter_clean_arch_bloc/application/preferences/update_fontscale_usecase.dart';
+import 'package:flutter_clean_arch_bloc/application/preferences/update_locale_usecase.dart';
+import 'package:flutter_clean_arch_bloc/core/either/either.dart';
+import 'package:flutter_clean_arch_bloc/core/failures/failures.dart';
+import 'package:flutter_clean_arch_bloc/data/data_sources/preferences_datasource.dart';
+import 'package:flutter_clean_arch_bloc/data/repositories_impl/preferences_repository_impl.dart';
+import 'package:flutter_clean_arch_bloc/domain/entities/preferences_entity.dart';
+import 'package:flutter_clean_arch_bloc/infrastructure/storage/shared_preferences/shared_preferences_impl.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

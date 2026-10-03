@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_clean_arch_riverpod/core/l10n/generated/app_localizations.dart';
-import 'package:flutter_clean_arch_riverpod/core/l10n/generated/app_localizations_en.dart';
-import 'package:flutter_clean_arch_riverpod/core/l10n/generated/app_localizations_es.dart';
-import 'package:flutter_clean_arch_riverpod/core/l10n/generated/app_localizations_pt.dart';
+import 'package:flutter_clean_arch_bloc/core/l10n/generated/app_localizations.dart';
+import 'package:flutter_clean_arch_bloc/core/l10n/generated/app_localizations_en.dart';
+import 'package:flutter_clean_arch_bloc/core/l10n/generated/app_localizations_es.dart';
+import 'package:flutter_clean_arch_bloc/core/l10n/generated/app_localizations_pt.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

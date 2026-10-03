@@ -1,10 +1,10 @@
-import 'package:flutter_clean_arch_riverpod/core/either/either.dart';
-import 'package:flutter_clean_arch_riverpod/core/failures/failures.dart';
-import 'package:flutter_clean_arch_riverpod/data/data_sources/favorites_datasource.dart';
-import 'package:flutter_clean_arch_riverpod/data/repositories_impl/failure_mappers.dart';
-import 'package:flutter_clean_arch_riverpod/domain/entities/favorite_entity.dart';
-import 'package:flutter_clean_arch_riverpod/domain/repositories/favorites_repository_interface.dart';
-import 'package:flutter_clean_arch_riverpod/infrastructure/storage/storage_failure.dart';
+import 'package:flutter_clean_arch_bloc/core/either/either.dart';
+import 'package:flutter_clean_arch_bloc/core/failures/failures.dart';
+import 'package:flutter_clean_arch_bloc/data/data_sources/favorites_datasource.dart';
+import 'package:flutter_clean_arch_bloc/data/repositories_impl/failure_mappers.dart';
+import 'package:flutter_clean_arch_bloc/domain/entities/favorite_entity.dart';
+import 'package:flutter_clean_arch_bloc/domain/repositories/favorites_repository_interface.dart';
+import 'package:flutter_clean_arch_bloc/infrastructure/storage/storage_failure.dart';
 
 /// Turns what the datasource resolved into what the domain contract promises:
 /// a [StorageFailure] becomes a [Failure], a symbol becomes a

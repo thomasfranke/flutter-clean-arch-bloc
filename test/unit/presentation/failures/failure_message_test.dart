@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_clean_arch_riverpod/core/failures/failures.dart';
-import 'package:flutter_clean_arch_riverpod/core/l10n/generated/app_localizations.dart';
-import 'package:flutter_clean_arch_riverpod/presentation/failures/failure_message.dart';
+import 'package:flutter_clean_arch_bloc/core/failures/failures.dart';
+import 'package:flutter_clean_arch_bloc/core/l10n/generated/app_localizations.dart';
+import 'package:flutter_clean_arch_bloc/presentation/failures/failure_message.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

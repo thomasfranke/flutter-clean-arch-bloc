@@ -1,8 +1,8 @@
 import 'dart:developer';
 
-import 'package:flutter_clean_arch_riverpod/core/either/either.dart';
-import 'package:flutter_clean_arch_riverpod/infrastructure/storage/storage_failure.dart';
-import 'package:flutter_clean_arch_riverpod/infrastructure/storage/storage_interface.dart';
+import 'package:flutter_clean_arch_bloc/core/either/either.dart';
+import 'package:flutter_clean_arch_bloc/infrastructure/storage/storage_failure.dart';
+import 'package:flutter_clean_arch_bloc/infrastructure/storage/storage_interface.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Implementation of the [StorageInterface] using

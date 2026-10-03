@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_clean_arch_riverpod/core/theme/app_colors.dart';
-import 'package:flutter_clean_arch_riverpod/core/theme/app_theme.dart';
+import 'package:flutter_clean_arch_bloc/core/theme/app_colors.dart';
+import 'package:flutter_clean_arch_bloc/core/theme/app_theme.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

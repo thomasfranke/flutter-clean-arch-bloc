@@ -1,4 +1,4 @@
-import 'package:flutter_clean_arch_riverpod/domain/entities/crypto_quote_entity.dart';
+import 'package:flutter_clean_arch_bloc/domain/entities/crypto_quote_entity.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'crypto_quote_dto.freezed.dart';

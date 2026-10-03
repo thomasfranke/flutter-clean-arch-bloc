@@ -1,9 +1,9 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_clean_arch_riverpod/domain/entities/crypto_quote_entity.dart';
-import 'package:flutter_clean_arch_riverpod/presentation/screens/detail/detail_screen.dart';
-import 'package:flutter_clean_arch_riverpod/presentation/screens/home/home_screen.dart';
-import 'package:flutter_clean_arch_riverpod/presentation/screens/preferences/preferences_screen.dart';
+import 'package:flutter_clean_arch_bloc/domain/entities/crypto_quote_entity.dart';
+import 'package:flutter_clean_arch_bloc/presentation/screens/detail/detail_screen.dart';
+import 'package:flutter_clean_arch_bloc/presentation/screens/home/home_screen.dart';
+import 'package:flutter_clean_arch_bloc/presentation/screens/preferences/preferences_screen.dart';
 
 part 'auto_route.gr.dart';
 

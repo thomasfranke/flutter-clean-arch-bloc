@@ -1,6 +1,6 @@
-import 'package:flutter_clean_arch_riverpod/core/failures/failures.dart';
-import 'package:flutter_clean_arch_riverpod/infrastructure/http_client/http_client_failure.dart';
-import 'package:flutter_clean_arch_riverpod/infrastructure/storage/storage_failure.dart';
+import 'package:flutter_clean_arch_bloc/core/failures/failures.dart';
+import 'package:flutter_clean_arch_bloc/infrastructure/http_client/http_client_failure.dart';
+import 'package:flutter_clean_arch_bloc/infrastructure/storage/storage_failure.dart';
 
 // The translation from infrastructure's failures to the domain's lives in
 // `data/`, beside the repositories that call it, not in `infrastructure/`

@@ -1,8 +1,8 @@
-import 'package:flutter_clean_arch_riverpod/application/quotes/get_crypto_quotes_usecase.dart';
-import 'package:flutter_clean_arch_riverpod/core/either/either.dart';
-import 'package:flutter_clean_arch_riverpod/core/failures/failures.dart';
-import 'package:flutter_clean_arch_riverpod/domain/entities/crypto_quote_entity.dart';
-import 'package:flutter_clean_arch_riverpod/domain/repositories/crypto_quotes_repository_interface.dart';
+import 'package:flutter_clean_arch_bloc/application/quotes/get_crypto_quotes_usecase.dart';
+import 'package:flutter_clean_arch_bloc/core/either/either.dart';
+import 'package:flutter_clean_arch_bloc/core/failures/failures.dart';
+import 'package:flutter_clean_arch_bloc/domain/entities/crypto_quote_entity.dart';
+import 'package:flutter_clean_arch_bloc/domain/repositories/crypto_quotes_repository_interface.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

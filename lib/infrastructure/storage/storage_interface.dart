@@ -1,5 +1,5 @@
-import 'package:flutter_clean_arch_riverpod/core/either/either.dart';
-import 'package:flutter_clean_arch_riverpod/infrastructure/storage/storage_failure.dart';
+import 'package:flutter_clean_arch_bloc/core/either/either.dart';
+import 'package:flutter_clean_arch_bloc/infrastructure/storage/storage_failure.dart';
 
 /// Interface for Storage operations.
 abstract class StorageInterface {

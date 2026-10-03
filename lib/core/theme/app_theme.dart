@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_clean_arch_riverpod/core/theme/app_colors.dart';
+import 'package:flutter_clean_arch_bloc/core/theme/app_colors.dart';
 
 /// Application theme configuration, providing dark and light themes
 /// inspired by financial terminals.

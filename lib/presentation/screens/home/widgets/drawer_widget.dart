@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_clean_arch_riverpod/core/l10n/generated/app_localizations.dart';
-import 'package:flutter_clean_arch_riverpod/core/routes/auto_route.dart';
+import 'package:flutter_clean_arch_bloc/core/l10n/generated/app_localizations.dart';
+import 'package:flutter_clean_arch_bloc/core/routes/auto_route.dart';
 
 /// Drawer widget for the home screen, providing navigation options.
 class AppDrawer extends StatelessWidget {

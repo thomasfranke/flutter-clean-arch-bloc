@@ -1,7 +1,7 @@
-import 'package:flutter_clean_arch_riverpod/core/either/either.dart';
-import 'package:flutter_clean_arch_riverpod/data/data_sources/favorites_datasource.dart';
-import 'package:flutter_clean_arch_riverpod/infrastructure/storage/storage_failure.dart';
-import 'package:flutter_clean_arch_riverpod/infrastructure/storage/storage_interface.dart';
+import 'package:flutter_clean_arch_bloc/core/either/either.dart';
+import 'package:flutter_clean_arch_bloc/data/data_sources/favorites_datasource.dart';
+import 'package:flutter_clean_arch_bloc/infrastructure/storage/storage_failure.dart';
+import 'package:flutter_clean_arch_bloc/infrastructure/storage/storage_interface.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

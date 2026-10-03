@@ -1,4 +1,4 @@
-import 'package:flutter_clean_arch_riverpod/domain/entities/kline_entity.dart';
+import 'package:flutter_clean_arch_bloc/domain/entities/kline_entity.dart';
 
 /// Data Transfer Object for a single kline (candlestick) returned by the
 /// Binance API. The response is a raw list, so no fromJson annotation is

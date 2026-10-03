@@ -1,11 +1,11 @@
-import 'package:flutter_clean_arch_riverpod/application/favorites/get_favorites_usecase.dart';
-import 'package:flutter_clean_arch_riverpod/application/favorites/toggle_favorite_usecase.dart';
-import 'package:flutter_clean_arch_riverpod/core/either/either.dart';
-import 'package:flutter_clean_arch_riverpod/core/failures/failures.dart';
-import 'package:flutter_clean_arch_riverpod/data/data_sources/favorites_datasource.dart';
-import 'package:flutter_clean_arch_riverpod/data/repositories_impl/favorites_repository_impl.dart';
-import 'package:flutter_clean_arch_riverpod/domain/entities/favorite_entity.dart';
-import 'package:flutter_clean_arch_riverpod/infrastructure/storage/shared_preferences/shared_preferences_impl.dart';
+import 'package:flutter_clean_arch_bloc/application/favorites/get_favorites_usecase.dart';
+import 'package:flutter_clean_arch_bloc/application/favorites/toggle_favorite_usecase.dart';
+import 'package:flutter_clean_arch_bloc/core/either/either.dart';
+import 'package:flutter_clean_arch_bloc/core/failures/failures.dart';
+import 'package:flutter_clean_arch_bloc/data/data_sources/favorites_datasource.dart';
+import 'package:flutter_clean_arch_bloc/data/repositories_impl/favorites_repository_impl.dart';
+import 'package:flutter_clean_arch_bloc/domain/entities/favorite_entity.dart';
+import 'package:flutter_clean_arch_bloc/infrastructure/storage/shared_preferences/shared_preferences_impl.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

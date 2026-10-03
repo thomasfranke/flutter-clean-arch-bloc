@@ -1,4 +1,4 @@
-import 'package:flutter_clean_arch_riverpod/domain/entities/preferences_entity.dart';
+import 'package:flutter_clean_arch_bloc/domain/entities/preferences_entity.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'preferences_dao.freezed.dart';

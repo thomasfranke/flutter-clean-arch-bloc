@@ -1,6 +1,6 @@
-import 'package:flutter_clean_arch_riverpod/core/either/either.dart';
-import 'package:flutter_clean_arch_riverpod/core/failures/failures.dart';
-import 'package:flutter_clean_arch_riverpod/data/repositories_impl/entity_list.dart';
+import 'package:flutter_clean_arch_bloc/core/either/either.dart';
+import 'package:flutter_clean_arch_bloc/core/failures/failures.dart';
+import 'package:flutter_clean_arch_bloc/data/repositories_impl/entity_list.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 /// Converts the strings that are numbers, refuses the rest.

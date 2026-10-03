@@ -1,7 +1,7 @@
-import 'package:flutter_clean_arch_riverpod/core/either/either.dart';
-import 'package:flutter_clean_arch_riverpod/core/failures/failures.dart';
-import 'package:flutter_clean_arch_riverpod/domain/entities/favorite_entity.dart';
-import 'package:flutter_clean_arch_riverpod/domain/repositories/favorites_repository_interface.dart';
+import 'package:flutter_clean_arch_bloc/core/either/either.dart';
+import 'package:flutter_clean_arch_bloc/core/failures/failures.dart';
+import 'package:flutter_clean_arch_bloc/domain/entities/favorite_entity.dart';
+import 'package:flutter_clean_arch_bloc/domain/repositories/favorites_repository_interface.dart';
 
 /// Use case for toggling a cryptocurrency as favorite.
 ///

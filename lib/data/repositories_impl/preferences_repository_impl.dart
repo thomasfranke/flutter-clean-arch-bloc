@@ -1,11 +1,11 @@
-import 'package:flutter_clean_arch_riverpod/core/either/either.dart';
-import 'package:flutter_clean_arch_riverpod/core/failures/failures.dart';
-import 'package:flutter_clean_arch_riverpod/data/data_objects/preferences_dao.dart';
-import 'package:flutter_clean_arch_riverpod/data/data_sources/preferences_datasource.dart';
-import 'package:flutter_clean_arch_riverpod/data/repositories_impl/failure_mappers.dart';
-import 'package:flutter_clean_arch_riverpod/domain/entities/preferences_entity.dart';
-import 'package:flutter_clean_arch_riverpod/domain/repositories/preferences_repository_interface.dart';
-import 'package:flutter_clean_arch_riverpod/infrastructure/storage/storage_failure.dart';
+import 'package:flutter_clean_arch_bloc/core/either/either.dart';
+import 'package:flutter_clean_arch_bloc/core/failures/failures.dart';
+import 'package:flutter_clean_arch_bloc/data/data_objects/preferences_dao.dart';
+import 'package:flutter_clean_arch_bloc/data/data_sources/preferences_datasource.dart';
+import 'package:flutter_clean_arch_bloc/data/repositories_impl/failure_mappers.dart';
+import 'package:flutter_clean_arch_bloc/domain/entities/preferences_entity.dart';
+import 'package:flutter_clean_arch_bloc/domain/repositories/preferences_repository_interface.dart';
+import 'package:flutter_clean_arch_bloc/infrastructure/storage/storage_failure.dart';
 
 /// Named rather than repeated inline, because all four methods below end
 /// with it: the storage failure the datasource reports is only a domain

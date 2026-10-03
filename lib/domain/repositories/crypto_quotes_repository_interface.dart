@@ -1,6 +1,6 @@
-import 'package:flutter_clean_arch_riverpod/core/either/either.dart';
-import 'package:flutter_clean_arch_riverpod/core/failures/failures.dart';
-import 'package:flutter_clean_arch_riverpod/domain/entities/crypto_quote_entity.dart';
+import 'package:flutter_clean_arch_bloc/core/either/either.dart';
+import 'package:flutter_clean_arch_bloc/core/failures/failures.dart';
+import 'package:flutter_clean_arch_bloc/domain/entities/crypto_quote_entity.dart';
 
 /// Repository interface for fetching cryptocurrency quotes, defining the
 /// contract for the repository implementation.

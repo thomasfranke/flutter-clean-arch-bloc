@@ -1,7 +1,7 @@
 import 'dart:developer';
 
-import 'package:flutter_clean_arch_riverpod/core/either/either.dart';
-import 'package:flutter_clean_arch_riverpod/core/failures/failures.dart';
+import 'package:flutter_clean_arch_bloc/core/either/either.dart';
+import 'package:flutter_clean_arch_bloc/core/failures/failures.dart';
 
 /// Converts every DTO in [dtos] with [convert], keeping the ones that convert.
 ///
